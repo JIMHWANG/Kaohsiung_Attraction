@@ -1,0 +1,140 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* body{
+    border: 1px solid #000;
+} */
+
+.banner{
+    width: 100%;
+    background-image: url(https://upload.cc/i1/2022/05/02/chXkpn.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.banner h1{
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    padding-top: 89px;
+    line-height: 40px;
+    letter-spacing: 3.89px;
+}
+
+.banner select{
+    height: 48px;
+    width: 452px;
+    margin-top: 96px;
+    font-size: 18px;
+    background: rgba(255,255,255,0.70);
+    border: 3px solid #FFFFFF;
+    border-radius: 3px;
+}
+
+.banner .hotDistrict{
+    width: 800px;
+    margin-top: 450px;
+    background: #fff;
+    position: absolute;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+    border-radius: 5px;
+    padding: 26px 26px 18px 26px;
+    
+}
+
+.banner .hotDistrict p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.banner .hotDistrict ul{
+    display: flex;
+    font-size: 20px;
+    width: 610px;
+    justify-content: space-between;
+    margin-top: 14px;
+    margin-left: 25px;
+}
+
+.banner .hotDistrict ul li{
+    width: 130px;
+    height: 42px;
+    border-radius: 5px;
+}
+
+.banner .hotDistrict ul li:nth-child(1){
+    background: #8A82CC;
+}
+
+.banner .hotDistrict ul li:nth-child(2){
+    background: #FFA782;
+}
+
+.banner .hotDistrict ul li:nth-child(3){
+    background: #F5D105;
+}
+
+.banner .hotDistrict ul li:nth-child(4){
+    background: #559AC8;
+}
+
+.banner .hotDistrict ul li a{
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 42px;
+}
+

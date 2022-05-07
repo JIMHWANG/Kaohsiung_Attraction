@@ -1463,11 +1463,20 @@ function chooseDistrict(district) {
     var KaohsiungAttractionLen = KaohsiungAttraction.length;
     for (var i = 0; i < KaohsiungAttractionLen; i++) {
         if (KaohsiungAttraction[i].Zone == district) {
-            console.log(KaohsiungAttraction[i].Name + '在' + KaohsiungAttraction[i].Zone);
+            //console.log(KaohsiungAttraction[i].Name + '在' + KaohsiungAttraction[i].Zone);
+            console.log(KaohsiungAttraction[i].Name);
+            console.log(KaohsiungAttraction[i].Tel);
+            console.log(KaohsiungAttraction[i].Opentime);
+            console.log(KaohsiungAttraction[i].Add);
+            console.log(KaohsiungAttraction[i].Ticketinfo);
+
         }
     }
 }
 
+var banner = document.getElementById("header");
+banner.style = "height:" + banner.clientWidth / 2.694 + "px";
+
 var district = '美濃區';
 
-chooseDistrict(district)
+// chooseDistrict(district)
