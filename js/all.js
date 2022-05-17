@@ -1456,27 +1456,117 @@ var KaohsiungAttraction = [
         Id: "C1_397000000A_000190"
     }
 ];
+var KaohsiungAttractionLen = KaohsiungAttraction.length;
 
-
-
+////////////////////////////////////////////////////////
+// Display content according selection                 /
+////////////////////////////////////////////////////////
 function chooseDistrict(district) {
-    var KaohsiungAttractionLen = KaohsiungAttraction.length;
+
+    var mainH2 = document.querySelector('.main h2').textContent = district;
+    var mainAttraction = document.querySelector('.Attraction');
+    var mainAttractionStr = '';
+    style = "background-image: url('img_girl.jpg');"
     for (var i = 0; i < KaohsiungAttractionLen; i++) {
         if (KaohsiungAttraction[i].Zone == district) {
-            //console.log(KaohsiungAttraction[i].Name + '在' + KaohsiungAttraction[i].Zone);
-            console.log(KaohsiungAttraction[i].Name);
-            console.log(KaohsiungAttraction[i].Tel);
-            console.log(KaohsiungAttraction[i].Opentime);
-            console.log(KaohsiungAttraction[i].Add);
-            console.log(KaohsiungAttraction[i].Ticketinfo);
-
+            var mainAttractionStrContent = '<div class="eachAttraction"><div class="attractionname" style="background-image: url(' + KaohsiungAttraction[i].Picture1 + ');"><div class="name"><h3>' + KaohsiungAttraction[i].Name + '</h3><p>' + KaohsiungAttraction[i].Zone + '</p></div></div><div class="attractionInfo"><p><img src="https://upload.cc/i1/2022/05/08/hqBgY2.png" alt="#"> ' + KaohsiungAttraction[i].Opentime + '</p><p><img src="https://upload.cc/i1/2022/05/08/d4PGHL.png" alt="#">' + KaohsiungAttraction[i].Add + '</p><div class="phoneAndTicketInfo"><p><img src="https://upload.cc/i1/2022/05/08/iK4xAs.png" alt="#"> ' + KaohsiungAttraction[i].Tel + '</p><p><img src="https://upload.cc/i1/2022/05/08/XabJ6E.png" alt="#">' + KaohsiungAttraction[i].Ticketinfo + '</p></div></div></div>';
+            mainAttractionStr += mainAttractionStrContent;
         }
     }
+    mainAttraction.innerHTML = mainAttractionStr;
 }
 
+////////////////////////////////////////////////////////
+// For finding the most popular city                   /
+////////////////////////////////////////////////////////
+function findhotDistrictArea() {
+    var eachDistricOccurstatic = {
+    };
+    var cityExist = 0; //A flag to check if the city exist in object
+    for (var i = 0; i < KaohsiungAttractionLen; i++) {
+        Object.keys(eachDistricOccurstatic).forEach(function (key) {
+            if (key == KaohsiungAttraction[i].Zone) {
+                //If the key equal to the city attract from the object, means this city is already exist in the object.
+                eachDistricOccurstatic[key] = eachDistricOccurstatic[key] + 1;
+                cityExist = 1; //Means the city is already exist in the object
+            }
+        });
+        if (cityExist == 0) { //Means the city is not exist in the object yet
+            //Add the city into eachDistricOccurstatic object
+            eachDistricOccurstatic[KaohsiungAttraction[i].Zone] = 1;
+        }
+        cityExist = 0; //Reset city exist flag before go into the next loop
+    }
+    return eachDistricOccurstatic;
+}
+
+////////////////////////////////////////////////////////
+// For finding 4 hotDistrict                           /
+////////////////////////////////////////////////////////
+var EachCityTotalNumber = findhotDistrictArea();
+// After collecting the record times for each city, sort by occurrence.
+var eachDistricOccurstaticAry = [];
+var fourHottestDistrictAry = [];
+var hotDistrictUl = document.querySelector('.hotDistrict ul');
+var hotDistrictUlstr = '';
+// Attracting the value from Object
+Object.keys(EachCityTotalNumber).forEach(function (key) {
+    eachDistricOccurstaticAry.push(EachCityTotalNumber[key]);
+});
+// Find the value which occurs the most times 
+while (fourHottestDistrictAry.length != 4) {
+    fourHottestDistrictAry.push(Math.max.apply(Math, eachDistricOccurstaticAry))
+    eachDistricOccurstaticAry.splice(eachDistricOccurstaticAry.indexOf(Math.max.apply(Math, eachDistricOccurstaticAry)), 1);
+}
+// Adding the city which occurs the most times into .hotdistrict ul
+for (var y = 0; y < fourHottestDistrictAry.length; y++) {
+    Object.keys(EachCityTotalNumber).forEach(function (key) {
+        if (EachCityTotalNumber[key] == fourHottestDistrictAry[y]) {
+            var hotDistrictUlContent = '<li><a href="#" class="hotDistrictArea">' + key + '</a></li>';
+            hotDistrictUlstr += hotDistrictUlContent;
+
+            if (y == 0) {
+                // Default to show the hottest city first
+                chooseDistrict(key);
+            }
+        }
+
+    });
+}
+hotDistrictUl.innerHTML = hotDistrictUlstr;
+
+////////////////////////////////////////////////////////
+// For dropdownlist selection                          /
+////////////////////////////////////////////////////////
+var bannerDropdownlist = document.querySelector('.banner select');
+var bannerDropdownliststr = '<option>- -請選擇行政區- -</option>';
+Object.keys(EachCityTotalNumber).forEach(function (key) {
+    var bannerDropdownlistContent = '<option value="' + key + '">' + key + '</option>';
+    bannerDropdownliststr += bannerDropdownlistContent;
+})
+bannerDropdownlist.innerHTML = bannerDropdownliststr;
+
+////////////////////////////////////////////////////////
+// Dropdownlist event listener                         /
+////////////////////////////////////////////////////////
+bannerDropdownlist.addEventListener('click', function (e) {
+    if (e.target.value != "" && e.target.value != "- -請選擇行政區- -") {
+        chooseDistrict(e.target.value);
+    }
+});
+
+////////////////////////////////////////////////////////
+// Banner weith setup                                  /
+////////////////////////////////////////////////////////
 var banner = document.getElementById("header");
 banner.style = "height:" + banner.clientWidth / 2.694 + "px";
 
-var district = '美濃區';
-
-// chooseDistrict(district)
+////////////////////////////////////////////////////////
+// Click event for hotDistrictArea class               /
+////////////////////////////////////////////////////////
+var AllHotDistrictArea = document.querySelectorAll('.hotDistrictArea');
+AllHotDistrictArea.forEach(function (item, i) {
+    item.addEventListener('click', function (e) {
+        chooseDistrict(item.textContent);
+    }, false);
+});

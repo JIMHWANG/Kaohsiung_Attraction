@@ -83,7 +83,7 @@ table {
 
 .banner .hotDistrict{
     width: 800px;
-    margin-top: 450px;
+    margin-top: 30px;
     background: #fff;
     position: absolute;
     box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
@@ -137,4 +137,87 @@ table {
     text-align: center;
     line-height: 42px;
 }
+
+.main {
+    width: 92%;
+    margin: 0 auto;
+}
+
+.main h2{
+    font-size: 36px;
+    color: #8A82CC;
+    text-align: center;
+}
+
+.main .Attraction{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main .Attraction .eachAttraction{
+    width: 49%;
+    height: 273px;
+    margin-bottom: 36px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+}
+
+.main .Attraction .eachAttraction .attractionname{
+    background: url(https://raw.githubusercontent.com/hexschool/KCGTravel/master/image/%E4%B8%89%E6%B0%91%E5%8D%80/%E4%B8%AD%E9%83%BD%E6%BF%95%E5%9C%B0%E5%85%AC%E5%9C%9207.jpg) no-repeat;
+    height: 56%;
+    background-size: 100% 100%;
+    position: relative;
+    padding-right: 500px;
+}
+
+.main .Attraction .eachAttraction .attractionname .name{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.main .Attraction .eachAttraction .attractionname .name h3{
+    font-size: 24px;
+}
+
+.main .Attraction .eachAttraction .attractionInfo{
+    height: 44%;
+    /* padding: 16px 24px 22px 23px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main .Attraction .eachAttraction .attractionInfo img{
+    margin-right: 9px;
+}
+
+.main .Attraction .eachAttraction .attractionInfo .phoneAndTicketInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    height: 90px;
+    width: 100%;
+    font-size: 14px;
+    background-color: #559AC8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p:nth-child(1){
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.footer p:nth-child(2){
+    color: #FFD366;
+}
+
 
