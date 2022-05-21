@@ -84,7 +84,7 @@ table {
 
 .banner .hotDistrict{
     width: 800px;
-    margin-top: 500px;
+    margin-top: 750px;
     background: #fff;
     position: absolute;
     box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
@@ -200,6 +200,21 @@ table {
 .main .Attraction .eachAttraction .attractionInfo .phoneAndTicketInfo{
     display: flex;
     justify-content: space-between;
+}
+
+.main .page {
+    display: flex;
+}
+
+.main .page ul{
+    display: flex;
+    margin: 0 auto;
+    /* border: 1px solid #000; */
+}
+
+.main .page ul a{
+    font-size: 14px;
+    text-decoration: none;
 }
 
 .footer{

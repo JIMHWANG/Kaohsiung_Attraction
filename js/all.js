@@ -1,5 +1,83 @@
 var KaohsiungAttraction = [
     {
+        Ticketinfo: "",
+        Zone: "大樹區",
+        Px: "120.44534",
+        Py: "22.75129",
+        Add: "高雄市大樹區佛光山寺",
+        Gov: "397000000A",
+        Class2: "4",
+        Class1: "5",
+        Website: "http://fgsarts.webgo.com.tw/",
+        Opentime: "每日08:30-18:00",
+        Description: "佛光緣美術館緣於一九九四年為籌措佛光大學設校所需經費而做的義賣，這個因緣是來自於佛光大學，因此以「佛光緣」為名。美術館成立的目的是為了讓信徒遊客藉由認識佛教文物，進而瞭解佛教的具體內涵，欣賞佛教藝術之美，至今已在全國及世界各地設立23所分館，而總館位於高雄市大樹區佛光山大雄寶殿後方，面積有六百餘坪。館內除常設展「雲水三千」為創辦人星雲法師弘法五十餘年以來的影像，另有典藏及常態展示區及美術教室，將佛教與藝文結合，為民眾提供一個心靈開放的空間，參與互動的文化藝術天地，提昇大眾生活品質、內涵。",
+        Remarks: "",
+        Parkinginfo_py: "0",
+        Parkinginfo_px: "0",
+        Name: "佛光緣美術館 (總館)11",
+        Level: null,
+        Picture1: "https://raw.githubusercontent.com/hexschool/KCGTravel/master/image/%E5%A4%A7%E6%A8%B9%E5%8D%80/%E4%BD%9B%E5%85%89%E7%B7%A3%E7%BE%8E%E8%A1%93%E9%A4%A8.jpg",
+        Toldescribe: "佛光緣美術館緣於一九九四年為籌措佛光大學設校所需經費而做的義賣，這個因緣是來自於佛光大學，因此以「佛光緣」為名。美術館成立的目的是為了讓信徒遊客藉由認識佛教文物，進而瞭解佛教的具體內涵，欣賞佛教藝術之美，至今已在全國及世界各地設立23所分館，而總館位於高雄市大樹區佛光山大雄寶殿後方，面積有六百餘坪。館內除常設展「雲水三千」為創辦人星雲法師弘法五十餘年以來的影像，另有典藏及常態展示區及美術教室，將佛教與藝文結合，為民眾提供一個心靈開放的空間，參與互動的文化藝術天地，提昇大眾生活品質、內涵。",
+        Changetime: "2015-06-12T10:49:37",
+        Tel: "886-7-6561921",
+        Picdescribe1: "佛光緣美術館 (總館)",
+        Travellinginfo: "",
+        _id: 14,
+        Id: "C1_397000000A_000022"
+    },
+    {
+        Ticketinfo: "",
+        Zone: "大樹區",
+        Px: "120.44534",
+        Py: "22.75129",
+        Add: "高雄市大樹區佛光山寺",
+        Gov: "397000000A",
+        Class2: "4",
+        Class1: "5",
+        Website: "http://fgsarts.webgo.com.tw/",
+        Opentime: "每日08:30-18:00",
+        Description: "佛光緣美術館緣於一九九四年為籌措佛光大學設校所需經費而做的義賣，這個因緣是來自於佛光大學，因此以「佛光緣」為名。美術館成立的目的是為了讓信徒遊客藉由認識佛教文物，進而瞭解佛教的具體內涵，欣賞佛教藝術之美，至今已在全國及世界各地設立23所分館，而總館位於高雄市大樹區佛光山大雄寶殿後方，面積有六百餘坪。館內除常設展「雲水三千」為創辦人星雲法師弘法五十餘年以來的影像，另有典藏及常態展示區及美術教室，將佛教與藝文結合，為民眾提供一個心靈開放的空間，參與互動的文化藝術天地，提昇大眾生活品質、內涵。",
+        Remarks: "",
+        Parkinginfo_py: "0",
+        Parkinginfo_px: "0",
+        Name: "佛光緣美術館 (總館)3",
+        Level: null,
+        Picture1: "https://raw.githubusercontent.com/hexschool/KCGTravel/master/image/%E5%A4%A7%E6%A8%B9%E5%8D%80/%E4%BD%9B%E5%85%89%E7%B7%A3%E7%BE%8E%E8%A1%93%E9%A4%A8.jpg",
+        Toldescribe: "佛光緣美術館緣於一九九四年為籌措佛光大學設校所需經費而做的義賣，這個因緣是來自於佛光大學，因此以「佛光緣」為名。美術館成立的目的是為了讓信徒遊客藉由認識佛教文物，進而瞭解佛教的具體內涵，欣賞佛教藝術之美，至今已在全國及世界各地設立23所分館，而總館位於高雄市大樹區佛光山大雄寶殿後方，面積有六百餘坪。館內除常設展「雲水三千」為創辦人星雲法師弘法五十餘年以來的影像，另有典藏及常態展示區及美術教室，將佛教與藝文結合，為民眾提供一個心靈開放的空間，參與互動的文化藝術天地，提昇大眾生活品質、內涵。",
+        Changetime: "2015-06-12T10:49:37",
+        Tel: "886-7-6561921",
+        Picdescribe1: "佛光緣美術館 (總館)",
+        Travellinginfo: "",
+        _id: 14,
+        Id: "C1_397000000A_000022"
+    },
+    {
+        Ticketinfo: "",
+        Zone: "大樹區",
+        Px: "120.44534",
+        Py: "22.75129",
+        Add: "高雄市大樹區佛光山寺",
+        Gov: "397000000A",
+        Class2: "4",
+        Class1: "5",
+        Website: "http://fgsarts.webgo.com.tw/",
+        Opentime: "每日08:30-18:00",
+        Description: "佛光緣美術館緣於一九九四年為籌措佛光大學設校所需經費而做的義賣，這個因緣是來自於佛光大學，因此以「佛光緣」為名。美術館成立的目的是為了讓信徒遊客藉由認識佛教文物，進而瞭解佛教的具體內涵，欣賞佛教藝術之美，至今已在全國及世界各地設立23所分館，而總館位於高雄市大樹區佛光山大雄寶殿後方，面積有六百餘坪。館內除常設展「雲水三千」為創辦人星雲法師弘法五十餘年以來的影像，另有典藏及常態展示區及美術教室，將佛教與藝文結合，為民眾提供一個心靈開放的空間，參與互動的文化藝術天地，提昇大眾生活品質、內涵。",
+        Remarks: "",
+        Parkinginfo_py: "0",
+        Parkinginfo_px: "0",
+        Name: "佛光緣美術館 (總館)2",
+        Level: null,
+        Picture1: "https://raw.githubusercontent.com/hexschool/KCGTravel/master/image/%E5%A4%A7%E6%A8%B9%E5%8D%80/%E4%BD%9B%E5%85%89%E7%B7%A3%E7%BE%8E%E8%A1%93%E9%A4%A8.jpg",
+        Toldescribe: "佛光緣美術館緣於一九九四年為籌措佛光大學設校所需經費而做的義賣，這個因緣是來自於佛光大學，因此以「佛光緣」為名。美術館成立的目的是為了讓信徒遊客藉由認識佛教文物，進而瞭解佛教的具體內涵，欣賞佛教藝術之美，至今已在全國及世界各地設立23所分館，而總館位於高雄市大樹區佛光山大雄寶殿後方，面積有六百餘坪。館內除常設展「雲水三千」為創辦人星雲法師弘法五十餘年以來的影像，另有典藏及常態展示區及美術教室，將佛教與藝文結合，為民眾提供一個心靈開放的空間，參與互動的文化藝術天地，提昇大眾生活品質、內涵。",
+        Changetime: "2015-06-12T10:49:37",
+        Tel: "886-7-6561921",
+        Picdescribe1: "佛光緣美術館 (總館)",
+        Travellinginfo: "",
+        _id: 14,
+        Id: "C1_397000000A_000022"
+    },
+    {
         Ticketinfo: "免費參觀",
         Zone: "三民區",
         Px: "120.28357",
@@ -1457,23 +1535,96 @@ var KaohsiungAttraction = [
     }
 ];
 var KaohsiungAttractionLen = KaohsiungAttraction.length;
+var mainH2 = document.querySelector('.main h2');
+
+////////////////////////////////////////////////////////
+// Generate page                                       /
+////////////////////////////////////////////////////////
+function PageGenerate(district) {
+
+    var mainPage = document.querySelector('.page ul');
+    var mainPagestr = '<li><a href="#"> < prev</a></li>';
+    var pagecount = 0;
+    var pageincludezoneAry = [];
+    var pageincludezoneobj = {};
+
+    if (EachCityTotalNumber[district] % 10 != 0) {
+        pagecount = Math.floor(EachCityTotalNumber[district] / 10) + 1;
+    } else {
+        pagecount = Math.floor(EachCityTotalNumber[district] / 10);
+    }
+
+    for (var ipagecount = 1; ipagecount <= pagecount; ipagecount++) {
+        var mainPageContent = '<li><a href="#">' + ipagecount + '</a></li>';
+        mainPagestr += mainPageContent;
+        for (var yKaohsiungAttractionLen = 0; yKaohsiungAttractionLen < KaohsiungAttractionLen; yKaohsiungAttractionLen++) {
+            if (KaohsiungAttraction[yKaohsiungAttractionLen].Zone == district) {
+                var ValueExistInObject = checkValueExistInObject(KaohsiungAttraction[yKaohsiungAttractionLen].Name, pageincludezoneobj);
+                if (ValueExistInObject == false) {
+                    pageincludezoneAry.push(KaohsiungAttraction[yKaohsiungAttractionLen].Name)
+                    pageincludezoneobj[ipagecount] = pageincludezoneAry;
+                }
+
+                if (pageincludezoneAry.length == 10) {
+                    break;
+                }
+            }
+        }
+        pageincludezoneAry = [];
+    }
+    mainPagestr += '<li><a href="#">next ></a></li>';
+    mainPage.innerHTML = mainPagestr;
+    return pageincludezoneobj;
+}
 
 ////////////////////////////////////////////////////////
 // Display content according selection                 /
 ////////////////////////////////////////////////////////
-function chooseDistrict(district) {
-
-    var mainH2 = document.querySelector('.main h2').textContent = district;
+function CreateContent(ZoneObj, select) {
     var mainAttraction = document.querySelector('.Attraction');
     var mainAttractionStr = '';
-    style = "background-image: url('img_girl.jpg');"
     for (var i = 0; i < KaohsiungAttractionLen; i++) {
-        if (KaohsiungAttraction[i].Zone == district) {
-            var mainAttractionStrContent = '<div class="eachAttraction"><div class="attractionname" style="background-image: url(' + KaohsiungAttraction[i].Picture1 + ');"><div class="name"><h3>' + KaohsiungAttraction[i].Name + '</h3><p>' + KaohsiungAttraction[i].Zone + '</p></div></div><div class="attractionInfo"><p><img src="https://upload.cc/i1/2022/05/08/hqBgY2.png" alt="#"> ' + KaohsiungAttraction[i].Opentime + '</p><p><img src="https://upload.cc/i1/2022/05/08/d4PGHL.png" alt="#">' + KaohsiungAttraction[i].Add + '</p><div class="phoneAndTicketInfo"><p><img src="https://upload.cc/i1/2022/05/08/iK4xAs.png" alt="#"> ' + KaohsiungAttraction[i].Tel + '</p><p><img src="https://upload.cc/i1/2022/05/08/XabJ6E.png" alt="#">' + KaohsiungAttraction[i].Ticketinfo + '</p></div></div></div>';
-            mainAttractionStr += mainAttractionStrContent;
+        for (var iZoneObj = 0; iZoneObj < ZoneObj[select].length; iZoneObj++) {
+            if (KaohsiungAttraction[i].Name == ZoneObj[select][iZoneObj]) {
+                var mainAttractionStrContent = '<div class="eachAttraction"><div class="attractionname" style="background-image: url(' + KaohsiungAttraction[i].Picture1 + ');"><div class="name"><h3>' + KaohsiungAttraction[i].Name + '</h3><p>' + KaohsiungAttraction[i].Zone + '</p></div></div><div class="attractionInfo"><p><img src="https://upload.cc/i1/2022/05/08/hqBgY2.png" alt="#"> ' + KaohsiungAttraction[i].Opentime + '</p><p><img src="https://upload.cc/i1/2022/05/08/d4PGHL.png" alt="#">' + KaohsiungAttraction[i].Add + '</p><div class="phoneAndTicketInfo"><p><img src="https://upload.cc/i1/2022/05/08/iK4xAs.png" alt="#"> ' + KaohsiungAttraction[i].Tel + '</p><p><img src="https://upload.cc/i1/2022/05/08/XabJ6E.png" alt="#">' + KaohsiungAttraction[i].Ticketinfo + '</p></div></div></div>';
+                mainAttractionStr += mainAttractionStrContent;
+            }
         }
     }
     mainAttraction.innerHTML = mainAttractionStr;
+}
+
+////////////////////////////////////////////////////////
+// Generic use for check value exist in array          /
+////////////////////////////////////////////////////////
+
+function checkValueExistInArray(TargetValue, TargetArray) {
+    var ValueExist = false;
+    for (var iTargetArray = 0; iTargetArray < TargetArray.length; iTargetArray++) {
+        if (TargetArray[iTargetArray] == TargetValue) {
+            var ValueExist = true;
+            break;
+        }
+    }
+    return ValueExist;
+}
+
+////////////////////////////////////////////////////////
+// Generic use for check value exist in object         /
+////////////////////////////////////////////////////////
+
+function checkValueExistInObject(TargetValue, TargetObject) {
+    var ValueExist = false;
+    // console.log(TargetValue);
+    // console.log(TargetObject);
+    Object.keys(TargetObject).forEach(function (key) {
+        for (var iTargetObject = 0; iTargetObject < TargetObject[key].length; iTargetObject++) {
+            if (TargetObject[key][iTargetObject] == TargetValue) {
+                ValueExist = true;
+            }
+        }
+    })
+    return ValueExist;
 }
 
 ////////////////////////////////////////////////////////
@@ -1527,13 +1678,26 @@ for (var y = 0; y < fourHottestDistrictAry.length; y++) {
 
             if (y == 0) {
                 // Default to show the hottest city first
-                chooseDistrict(key);
+                CreateContent(PageGenerate(key), 1);
+                mainH2.textContent = key;
             }
         }
 
     });
 }
 hotDistrictUl.innerHTML = hotDistrictUlstr;
+
+
+////////////////////////////////////////////////////////
+// For page selection                                  /
+////////////////////////////////////////////////////////
+var AllPage = document.querySelectorAll('.page ul li a');
+AllPage.forEach(function (item, i) {
+    item.addEventListener('click', function (e) {
+        CreateContent(PageGenerate(mainH2.textContent), item.textContent);
+    }, false);
+});
+
 
 ////////////////////////////////////////////////////////
 // For dropdownlist selection                          /
@@ -1551,7 +1715,8 @@ bannerDropdownlist.innerHTML = bannerDropdownliststr;
 ////////////////////////////////////////////////////////
 bannerDropdownlist.addEventListener('click', function (e) {
     if (e.target.value != "" && e.target.value != "- -請選擇行政區- -") {
-        chooseDistrict(e.target.value);
+        mainH2.textContent = e.target.value;
+        CreateContent(PageGenerate(e.target.value), 1);
     }
 });
 
@@ -1567,6 +1732,7 @@ banner.style = "height:" + banner.clientWidth / 2.694 + "px";
 var AllHotDistrictArea = document.querySelectorAll('.hotDistrictArea');
 AllHotDistrictArea.forEach(function (item, i) {
     item.addEventListener('click', function (e) {
-        chooseDistrict(item.textContent);
+        mainH2.textContent = item.textContent;
+        CreateContent(PageGenerate(item.textContent), 1);
     }, false);
 });
