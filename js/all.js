@@ -1583,6 +1583,8 @@ function PageGenerate(district) {
 function CreateContent(ZoneObj, select) {
     var mainAttraction = document.querySelector('.Attraction');
     var mainAttractionStr = '';
+    console.log(ZoneObj);
+    console.log(select);
     for (var i = 0; i < KaohsiungAttractionLen; i++) {
         for (var iZoneObj = 0; iZoneObj < ZoneObj[select].length; iZoneObj++) {
             if (KaohsiungAttraction[i].Name == ZoneObj[select][iZoneObj]) {
@@ -1615,8 +1617,6 @@ function checkValueExistInArray(TargetValue, TargetArray) {
 
 function checkValueExistInObject(TargetValue, TargetObject) {
     var ValueExist = false;
-    // console.log(TargetValue);
-    // console.log(TargetObject);
     Object.keys(TargetObject).forEach(function (key) {
         for (var iTargetObject = 0; iTargetObject < TargetObject[key].length; iTargetObject++) {
             if (TargetObject[key][iTargetObject] == TargetValue) {
@@ -1694,6 +1694,8 @@ hotDistrictUl.innerHTML = hotDistrictUlstr;
 var AllPage = document.querySelectorAll('.page ul li a');
 AllPage.forEach(function (item, i) {
     item.addEventListener('click', function (e) {
+        console.log(item);
+        console.log(i);
         CreateContent(PageGenerate(mainH2.textContent), item.textContent);
     }, false);
 });

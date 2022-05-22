@@ -209,7 +209,14 @@ table {
 .main .page ul{
     display: flex;
     margin: 0 auto;
-    /* border: 1px solid #000; */
+}
+
+.main .page ul li{
+    margin-right: 27px;
+}
+
+.main .page ul li:last-child{
+    margin-right: 0px;
 }
 
 .main .page ul a{
@@ -226,6 +233,7 @@ table {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
 }
 
 .footer p:nth-child(1){
